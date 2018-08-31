@@ -1,0 +1,9 @@
+#SNoBox{
+    width:60px;
+}
+#TransactionIdBox,#BidsPackageBox,#AmountBox,#PaymentDateBox,#TransferDateBox,#PaymentTypeBox,#InvoiceNumberBox,#TransferByBox {
+    width: 150px;
+}
+#BankDetailsBox{
+    width: 300px;
+}

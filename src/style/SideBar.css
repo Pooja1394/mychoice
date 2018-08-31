@@ -1,0 +1,63 @@
+#Siderlogo{
+ width: 100%;
+height: 135px;
+background-color:#487CA7;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+#Siderimg{
+    width: 135px;
+    height: 108px;
+}
+.nav-text{
+    font-size: 13px !important;
+    width: 100%;
+    margin-left: -13px ;
+}
+.sider_container {
+    width: 230px;
+    height: 100vh;
+    position: fixed;
+    background-color: #222d32;
+  }
+  .wrapper {
+    /* overflow: auto; */
+    overflow-y: scroll;
+    height: 100vh;
+  }
+  .ant-menu-submenu-title{
+   font-size: 12px !important; 
+   padding-left: 10px !important;
+  }
+  .ant-menu-dark.ant-menu-inline, .ant-menu-dark.ant-menu-vertical, .ant-menu-dark.ant-menu-vertical-left, .ant-menu-dark.ant-menu-vertical-right{
+      background:#222d32 !important;
+  }
+  .ant-menu.ant-menu-dark .ant-menu-item-selected, .ant-menu-submenu-popup.ant-menu-dark .ant-menu-item-selected{
+      background:#1e282c !important;
+      border-left: 2px solid #3c8dbc !important;
+  }
+  .sider_container #SiderInfo{
+      height: 70px;
+  }
+  .sider_container #SiderUserspan{
+      margin-left: 13px;
+      margin-top: 12px;
+  }
+  #SiderInfo li{
+      display: flex;
+    color: white
+  }
+  #SiderInfo #SiderInfodiv{
+      margin-top: 15px;
+  }
+  #SiderInfo #UserNamesidediv{
+margin-bottom: 20px;
+  }
+  .ant-menu-vertical > .ant-menu-item, .ant-menu-vertical-left > .ant-menu-item, .ant-menu-vertical-right > .ant-menu-item, .ant-menu-inline > .ant-menu-item, .ant-menu-vertical > .ant-menu-submenu > .ant-menu-submenu-title, .ant-menu-vertical-left > .ant-menu-submenu > .ant-menu-submenu-title, .ant-menu-vertical-right > .ant-menu-submenu > .ant-menu-submenu-title, .ant-menu-inline > .ant-menu-submenu > .ant-menu-submenu-title{
+      height: 34px !important;
+  }
+  .ant-menu.ant-menu-dark .ant-menu-item-selected{
+      height:43px !important;
+  }

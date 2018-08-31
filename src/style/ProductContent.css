@@ -1,0 +1,81 @@
+.product_content_container{
+    width: calc(100vw - 230px);
+    height: calc(100vh - 135px);
+    background-color: #F3F4F8;
+    position: fixed;
+   
+    left: 230px;
+    text-align: end;
+}
+#ProductNameBox,#CategoryBox{
+width: 200px
+}
+#ProductIdBox,#CreatedDateBox,#RetailPriceBox,#BrandNameBox,#SupplierNameBox,#ImageBox{
+    width: 150px
+}
+#QuantityBox,#CreatedByBox,#StatusBox{
+    width: 100px
+}
+.filterField{
+    display:table;
+    margin: auto;
+    width:90%;
+    opacity: 0.5;
+    mix-blend-mode: undefined;
+    border-radius: 2px;
+    border: solid 1px #d2d6de;
+    background-color: white;
+  }
+  #btnAddProduct{
+    width: 95px;
+    height: 35px;
+    mix-blend-mode: undefined;
+    border-radius: 3px;
+    background-color: #3c8dbc;
+    margin: 3px 10px 10px 10px;
+  }
+  #btnExportProductCsv{
+    width: 90px;
+    height: 35px;
+    mix-blend-mode: undefined;
+    border-radius: 3px;
+    background-color: #f4f4f4;
+    border: solid 1px #d2d6de;
+  }
+  #showProductText{
+    width: 33px;
+    height: 11px;
+    font-family: SourceSansPro;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.86;
+    letter-spacing: normal;
+    text-align: left;
+    color: #333333;
+    margin:5px 8px 5px 5px
+  }
+  #resetProductFilter{
+    height: 11px;
+    font-family: regularfont;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 2.86;
+    letter-spacing: normal;
+    text-align: left;
+    color: #00a65a;
+    margin:5px 8px 5px 5px
+  }
+  .ui-datatable {
+    padding: 8px !important
+    }
+    .ui-dropdown .ui-dropdown-trigger .fa {
+      margin-top: 0.8em
+    }
+    .ant-menu-horizontal > .ant-menu-item > a:hover{
+      color:#333333
+    }
+    .ant-menu-horizontal > .ant-menu-item{
+      border-bottom: none;
+    }

@@ -1,0 +1,126 @@
+/*---------------------------Globle style-------------------------------*/
+
+
+
+
+/*----------------------normal style-------------------------------------*/
+
+.Auction_product_list
+{
+    height:130px;
+    width:100%;
+    border-radius:4px;
+    border-width: 3px 1px 1px 1px;
+     border-style: solid;
+     border-color: rgba(210, 214, 222, 0.5);
+     border-top-color: #4389b4;
+     background: white
+}
+#Auction_product_list-header
+{
+   height:30px;
+   width:100%;
+   border-bottom:1px solid lightgray;
+   padding-left:10px;
+   line-height: 30px;
+   text-transform: capitalize;
+   font-size:16px;font-family:regularfont;color:#333;
+}
+.current_status{
+    margin-top: 20px;
+    height:130px;
+    width:100%;
+    border-radius:4px;
+    /* border-top:3px solid #4389b4; */
+     border-width: 3px 1px 1px 1px;
+     border-style: solid;
+     border-color: rgba(210, 214, 222, 0.5);
+     border-top-color: #4389b4;
+     background:white;
+}
+.current_status .ant-col-md-4{
+    font-family: semiboldfont;
+    font-size: 18px;
+    color: #333333;
+    /* padding: 30px 54px; */
+    text-align: center
+}
+.current_status .ant-col-md-4 div{
+    font-family: semiboldfont;
+    font-size: 24px;
+    color:#02a456;
+}
+.bid-history-body{
+    width:100%;
+    height: 230px;
+    border-radius:4px;
+    border-width: 3px 1px 1px 1px;
+    border-style: solid;
+    border-color: rgba(210, 214, 222, 0.5);
+    border-top-color: #4389b4;
+    background: white
+}
+#bid-history-header{
+    height:30px;
+    width:100%;
+    border-bottom:1px solid lightgray;
+    padding-left:10px;
+    line-height: 30px;
+    text-transform: capitalize;
+    font-size:16px;
+    font-family:regularfont;
+    color:#333;
+}
+.bid-history-body #filter_content
+{
+    height:30px;
+    width:auto;
+    padding: 7px;
+    text-align: right;
+}
+.bid-history-body #filter_content ul li
+{
+    list-style-type:none;
+    display: inline-block;
+    padding-left:8px;
+    font-size:14px;
+    font-family: regularfont;
+    color: #333333
+}
+.bid-history-body #filter_content ul li:first-child
+{
+    color:#489047;
+    cursor: pointer;
+}
+.bid-history-body #filter_content ul li select
+{
+    height:25px;
+    width:75px;
+    background:transparent;
+    border:1px solid lightgray;
+    outline:none;
+}
+.player-record-body{
+    width:100%;
+    height: 230px;
+    border-radius:4px;
+    border-width: 3px 1px 1px 1px;
+    border-style: solid;
+    border-color: rgba(210, 214, 222, 0.5);
+    border-top-color: #4389b4;
+    background: white
+}
+#player-record-header{
+    height:30px;
+    width:100%;
+    border-bottom:1px solid lightgray;
+    padding-left:10px;
+    line-height: 30px;
+    text-transform: capitalize;
+    font-size:16px;
+    font-family:regularfont;
+    color:#333;
+}
+.ant-row .past-history-row{
+    margin-top: unset !important
+}

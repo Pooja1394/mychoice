@@ -1,0 +1,163 @@
+/*---------------------------Globle style-------------------------------*/
+
+
+
+
+/*----------------------normal style-------------------------------------*/
+
+.reports_table_div
+{
+    height:auto;
+    width:100%;
+    border-radius:4px;
+    border-width: 1px;
+     border-style: solid;
+     border-color: rgba(210, 214, 222, 0.8);
+     background: white
+}
+#Auction_product_list-header
+{
+   height:36px;
+   width:100%;
+   border-bottom:1px solid #d2d6de;
+   padding-left:10px;
+   line-height: 36px;
+   text-transform: capitalize;
+   font-size:18px;
+   font-family:regularfont;color:#333;
+}
+.current_status{
+    margin-top: 20px;
+    height:130px;
+    width:100%;
+    border-radius:4px;
+    /* border-top:3px solid #4389b4; */
+     border-width: 3px 1px 1px 1px;
+     border-style: solid;
+     border-color: rgba(210, 214, 222, 0.8);
+     border-top-color: #4389b4;
+     background:white;
+}
+.current_status .ant-col-lg-3{
+    font-family: semiboldfont;
+    font-size: 18px;
+    color: #333333;
+    margin-left: 1.5%;
+    /* padding: 30px 54px; */
+    text-align: center
+}
+.current_status .ant-col-lg-3 div{
+    font-family: boldfont;
+    font-size: 22px;
+    color:#02a456;
+}
+.bid-history-body{
+    width:100%;
+    height: 230px;
+    border-radius:4px;
+    border-width: 3px 1px 1px 1px;
+    border-style: solid;
+    border-color: rgba(210, 214, 222, 0.5);
+    border-top-color: #4389b4;
+    background: white
+}
+#bid-history-header{
+    height:30px;
+    width:100%;
+    border-bottom:1px solid lightgray;
+    padding-left:10px;
+    line-height: 30px;
+    text-transform: capitalize;
+    font-size:16px;
+    font-family:regularfont;
+    color:#333;
+}
+.bid-history-body #filter_content
+{
+    height:30px;
+    width:auto;
+    padding: 7px;
+    text-align: right;
+}
+.bid-history-body #filter_content ul li
+{
+    list-style-type:none;
+    display: inline-block;
+    padding-left:8px;
+    font-size:14px;
+    font-family: regularfont;
+    color: #333333
+}
+.bid-history-body #filter_content ul li:first-child
+{
+    color:#489047;
+    cursor: pointer;
+}
+.bid-history-body #filter_content ul li select
+{
+    height:25px;
+    width:75px;
+    background:transparent;
+    border:1px solid lightgray;
+    outline:none;
+}
+.player-record-body{
+    width:100%;
+    height: 230px;
+    border-radius:4px;
+    border-width: 3px 1px 1px 1px;
+    border-style: solid;
+    border-color: rgba(210, 214, 222, 0.5);
+    border-top-color: #4389b4;
+    background: white
+}
+#player-record-header{
+    height:30px;
+    width:100%;
+    border-bottom:1px solid lightgray;
+    padding-left:10px;
+    line-height: 30px;
+    text-transform: capitalize;
+    font-size:16px;
+    font-family:regularfont;
+    color:#333;
+}
+.ant-row .past-history-row{
+    margin-top: unset !important
+}
+#monthly-button{
+    width: 90px;
+    height: 35px;
+    font-family: regularfont;
+    font-size: 14px;
+    border-radius: 3px;
+    background-color: #ffffff;
+    color:#3c8dbc;
+    border: solid 1px #3c8dbc;
+    margin-right: 10px;
+    margin-top: 10px;
+    outline: none
+}
+#reseText{
+    float: right;
+    font-family: regularfont;
+    font-size: 14px;
+    line-height: 2.86;
+    /* text-align: left; */
+    color: #333333;
+    margin:5px 8px 5px 5px;
+    }
+.from-date .ant-calendar-picker-input.ant-input{
+    margin-top: 13px;
+    width: 126px;
+    border-radius: 2px;
+    height: 25px;
+    border: 1px solid #d2d6de;
+    font-family: regularfont;
+}
+.from-date .ant-calendar-picker-icon{
+    display: none;
+}
+.from-date .ant-calendar-picker:hover .ant-calendar-picker-input:not(.ant-input-disabled){
+    border-color:#d2d6de
+}

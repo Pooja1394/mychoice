@@ -1,0 +1,8 @@
+.UserProfileCouponTransactionTable #SNoBox{
+    width:60px;
+} 
+.UserProfileCouponTransactionTable #ImageBox,.UserProfileCouponTransactionTable #UsedDateBox{
+    width: 200px;
+}.UserProfileCouponTransactionTable #CouponCodeBox,.UserProfileCouponTransactionTable #PackageTypeBox,.UserProfileCouponTransactionTable #CreatedByBox{
+    width: 300px;
+}

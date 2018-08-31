@@ -1,0 +1,13 @@
+.depositncredit-table-operations #btnAdd{
+    width: 99px;
+    height: 35px;
+    border-radius: 3px;
+    background-color: #3c8dbc;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-left: 7px;
+    border:0;
+    font-family: regularfont;
+    outline: none;
+    color: white;
+}

@@ -1,0 +1,35 @@
+.buttonDom
+{
+  height:auto;
+  width:auto;
+  position: relative;
+}
+.buttonDom button
+{
+  width: 50%;
+  height: 28px;
+  border-radius: 2px;
+  mix-blend-mode: undefined;
+  background-color: #97a0b3;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border: solid 1px rgba(210, 214, 222, 0.5);
+  border-right: 0px;
+  outline:none;
+  color:#fff;
+}
+.buttonDom span
+{
+position: absolute;
+width: 50%;
+transition:0.3s;
+right: 0px;
+top: 0px;
+bottom: 0px;
+z-index: 100;
+border-radius:3px;
+color:white;
+line-height: 30px;
+background:green; 
+text-align: center;
+}

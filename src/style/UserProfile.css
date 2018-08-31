@@ -1,0 +1,143 @@
+.UserProfileContainer{
+    width: calc(100vw - 230px);
+    height: calc(100vh - 135px);
+    background-color: #F3F4F8;
+    position: fixed;
+    overflow-y: scroll;
+    left: 230px;
+    text-align: center;
+    overflow-y: scroll;
+}
+#UserProfileInnerContainer{
+    margin: 21px;
+    background-color: white;
+    margin-top: 0px;
+}
+.line{
+  width: calc(100vw - 271px);
+  height: 3px;
+  mix-blend-mode: undefined;
+  background-color: #3c8dbc;
+}
+.Innercontainer{
+  width: calc(100vw - 290px);
+  mix-blend-mode: undefined;
+  border-radius: 4px;
+  background-color: #ffffff;
+  border: solid 1px rgba(210, 214, 222, 0.8);
+}
+.UserDetailSummary{
+    margin-left: 20px;
+    width: calc(100vw - 270px);
+    /* height: calc(100vh - 385px); */
+    mix-blend-mode: undefined;
+    border-radius: 3px;
+    background-color: #ffffff;
+    border: solid 1px rgba(210, 214, 222, 0.5);
+}
+
+.UserProfileContainer #SummaryDiv{
+    width: 100%;
+}
+#UserImage{
+    float: left;
+    height:150px;
+    width:15%;
+    margin: 10px 10px 10px 10px;
+}
+#ResetPass{
+    width: 121px;
+  height: 35px;
+  mix-blend-mode: undefined;
+  border-radius: 3px;
+  background-color: #f4f4f4;
+  border: solid 1px #d2d6de;
+  float: right;
+  margin: 10px 7px;
+  outline: none;
+}
+.UserDetails{
+    float: left;
+    display: inline-grid
+   
+}
+.UserDetailSpan{
+    float: left;
+    font-size: 14px;
+    font-family:semiboldfont;
+  color: #333333;
+}
+
+#UserDetailHeader{
+  height: 45px;
+  mix-blend-mode: undefined;
+  background-color: #ffffff;
+  position: relative;
+ 
+
+}
+.Tracking{
+    width: 64px;
+  height: 17px;
+  mix-blend-mode: undefined;
+  font-family: SourceSansPro;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: left;
+  color: #333333;
+}
+#UserDetailHeader.ant-menu-item,#UserDetailHeader.ant-menu-item-selected{
+    height: 45px !important
+}
+#UserDetailHeader ul{
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll
+}
+#UserProfileInnerContainer{
+    height:172px;
+}
+.UserDetails ul{
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.UserDetails #UserName{
+    margin-bottom: 9px;
+}
+.UserDescli{
+    text-align: left;
+    margin-left: 150px;
+    font-family:regularfont;
+    width: 400px;
+    color: #333333
+}
+#UserName li{
+    text-align: left;
+    font-size: 20px;
+    font-family: regularfont;
+    color: #333333;
+}
+.ResetPassModal .ant-input{
+    text-indent: 5px !important;
+    margin-top:10px;
+}
+.ant-modal-footer {
+   text-align: left !important;
+}
+.ant-menu-horizontal > .ant-menu-item > a{
+  font-family: regularfont;
+  font-size: 18px;
+  color: #333333;
+}
+.ant-menu-horizontal > .ant-menu-item:hover, .ant-menu-horizontal > .ant-menu-submenu:hover, .ant-menu-horizontal > .ant-menu-item-active, .ant-menu-horizontal > .ant-menu-submenu-active, .ant-menu-horizontal > .ant-menu-item-open, .ant-menu-horizontal > .ant-menu-submenu-open, .ant-menu-horizontal > .ant-menu-item-selected, .ant-menu-horizontal > .ant-menu-submenu-selected{
+    border-top:3px solid #3c8dbc ;
+    border-bottom: none;
+}
+.ui-datatable-scrollable-body{
+    min-height: 43vh !important;
+    max-height: 43vh !important;
+}

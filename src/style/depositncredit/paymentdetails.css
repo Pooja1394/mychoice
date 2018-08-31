@@ -1,0 +1,9 @@
+.depositncredit-table-operations{
+    display: flex;
+    justify-content: flex-end
+}
+#buttonExportCsv{
+  float: right;
+    margin-top: 10px;
+    margin-right: 15px;
+}

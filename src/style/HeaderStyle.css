@@ -1,0 +1,136 @@
+.header_container{
+    height: 135px;
+    width: calc(100vw - 250px);
+    margin-left: 230px;
+    position: fixed;
+    box-shadow: 0px 1px 4px 0 rgba(0, 0, 0, 0.08);
+}
+#BreadCrumbspan{
+    align-items: flex-start;
+    width:100%
+}
+#HeaderTopDiv{
+    position: fixed;
+     width: 100%;
+     height:51px;
+     background: #3c8dbc
+}
+#HeaderDiv2{
+    height:84px;
+    width:100%;
+    background: #ffffff;
+    margin-top:51px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.08);
+   
+}
+#UserList{
+    margin-top: 10px;   
+    display:flex;
+    justify-content: space-between;
+}
+#Usertxt{
+    font-size:24px;
+    color:#333333;
+    /* align-items:flex-start
+     */
+     font-family:regularfont;
+}
+.ant-breadcrumb{
+    width:100px;
+}
+
+#btnCreateUser{
+    align-items:flex-end;
+    height: 35px;
+    mix-blend-mode: undefined;
+    border-radius: 3px;
+    background-color: #3c8dbc;
+    color:#ffffff;
+    font-size: 14px;
+    margin: 5px 5px 5px 5px;
+    border:0px;
+}
+#btnExportCsv{
+    align-items:flex-end;
+    width: 90px;
+    height: 35px;
+    mix-blend-mode: undefined;
+    border-radius: 3px;
+    background-color: #f4f4f4;
+    color: #333333;
+    font-size: 14px;
+    border: solid 1px #d2d6de;
+    margin: 5px 5px 5px 5px;
+    cursor: pointer;
+}
+.ant-breadcrumb{
+    width: calc(100vw - 230px) !important
+
+}
+#TopDropDown{
+    float: right;
+    color: #ffffff
+}
+.ant-dropdown-link,.ant-dropdown-trigger{
+    float: right !important;
+    margin-right: 250px;
+    color: white;
+    margin-top: 12px;
+    font-family: regularfont;
+    font-size: 14px
+}
+#TopHeaderDropdownUser{
+    width: 279.5px;
+  height: 167px;
+  mix-blend-mode: undefined;
+  background-color: #3c8dbc;
+ margin: auto;
+  align-items: center;
+  justify-content: center
+}
+#TopHeaderDropdownUserImage{
+    width: 70px;
+    height: 69.7px;
+    mix-blend-mode: undefined;
+    background-color: #bcbfc6;
+    margin-top: 20px;
+    margin: auto;
+    border-radius: 35px;
+}
+h5{
+   margin: auto;
+   text-align: center;
+   color: white
+}
+#HeaderDiv2{
+    padding-left: 20px;
+}
+#NotiHeaderDiv{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end
+}
+#TopHeaderDropdownUser .ant-upload.ant-upload-select-picture-card{
+    width:70px !important;
+    height:70px!important;
+    border-radius: 40px!important;
+    border: 0!important;
+}
+#TopHeaderDropdownUser .ant-upload.ant-upload-select-picture-card > .ant-upload{
+    padding: 0px
+}
+
+.ui-overlaypanel{
+    left:520px !important
+}
+.ant-popover{
+    left: 770px !important;
+    top: 36px !important;
+
+}
+.ui-widget-header{
+    border: 0px !important;
+}
+.ant-popover-inner-content{
+    padding: 0px !important
+}

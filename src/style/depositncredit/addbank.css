@@ -1,0 +1,11 @@
+.createbanklist #BankShortNamelist{
+    margin-left: 13px;
+}
+.createbanklist #Imagelist{
+    display: flex;
+    margin-left: 170px;
+}
+.createbanklist #Buttonlist{
+    display: flex;
+    margin-left: 230px;
+}

@@ -1,0 +1,21 @@
+.generatebtn{
+    border:0;
+    border-radius: 3px;
+    background-color: #3c8dbc;
+    color: white;
+    width: 116px;
+    height: 41px;
+  margin-left: -25px
+}
+.createcouponpackagelist .CreateUserField{
+    width: 100% !important
+}
+.createcouponpackagelist .Kspan{
+    margin-top: 10px;
+}
+.createcouponpackagelist .chckbx{
+    width: 31px;
+    height: 31px;
+    background-color: #e9d9d9;
+    border: solid 1px #d2d6de;
+}

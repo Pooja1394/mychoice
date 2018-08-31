@@ -1,0 +1,208 @@
+
+/*-----------------------golbel style------------------------------- */
+.auction_main_table_container .ui-datatable-scrollable-body
+{
+    min-height:0vh !important;
+}
+.ui-datatable tbody > tr.ui-widget-content.ui-state-highlight{
+    background:#3c8dbc !important;
+}
+
+.ui-datatable tbody > tr.ui-widget-content
+{
+    height:0px !important;
+}
+
+/* .auction_main_table_container .ui-datatable tbody > tr.ui-widget-content.ui-datatable-odd
+{
+    background: #fff !important;
+} */
+
+.auction_main_table_container .ui-state-highlight .ui-datatable-even
+{
+    background:#3c8dbc !important;
+    color: #fff !important;
+}
+.auction_main_table_container .ui-datatable tbody > tr.ui-widget-content.ui-datatable-even:hover
+{
+    background: #3c8dbc !important;
+    color:#fff !important;   
+}
+.auction_main_table_container .ui-datatable tbody > tr.ui-widget-content.ui-datatable-odd:hover
+{
+    background: #3c8dbc !important;
+    color:#fff !important;
+}
+.auction_main_table_container .ui-paginator
+{
+    text-align:right !important;
+}
+.auction_main_table_container .ui-datatable .ui-datatable-thead>tr>th:nth-child(5)
+{
+   text-align:left !important; 
+}
+.auction_main_table_container .ui-datatable .ui-datatable-thead>tr>th:nth-child(10)
+{
+   text-align:left !important; 
+}
+.auction_main_table_container .ui-datatable .ui-datatable-thead>tr>th:nth-child(11)
+{
+   text-align:left !important; 
+}
+
+/*-----------page style---------------*/
+
+.main_auction_div .auction_header
+{
+    display: flex;
+    height:40px;
+    width:100%;
+    align-items: center;
+    justify-content: space-between;
+    /* //background:red; */
+    padding:0px 10px 0px 10px;
+    border-bottom:1px solid lightgray;
+}
+.main_auction_div #header_content
+{
+    height:25px;
+    width:auto;
+    text-align: left;
+    text-transform: capitalize;
+    color:#333333;
+    font-size:16px;
+    font-family:regularfont;
+}
+.main_auction_div #filter_content
+{
+    height:20px;
+    width:auto;
+    /* //background:yellow; */
+    text-align: left;
+}
+.main_auction_div #filter_content ul li
+{
+    list-style-type:none;
+    display: inline-block;
+    padding-left:8px;
+    font-size:13px;
+    font-family: regularfont;
+}
+.main_auction_div #filter_content ul li:first-child
+{
+    color:#00a65a;
+}
+.main_auction_div #filter_content ul li select
+{
+    height:25px;
+    width:75px;
+    background:transparent;
+    border:1px solid lightgray;
+    outline:none;
+}
+.auction_main_table_container
+{
+    height:auto;
+    width:100%;
+    padding:0px 5px 10px 5px;
+}
+/* .control_filter{
+    width: 100%;
+    height: 30px;
+    background: white;
+    border: 1px solid #d5d5d5;
+    border-radius: 3px;
+    margin:0 !important;
+    outline:none;
+} */
+/* .ActionToggle
+{
+    height:auto;
+    width:150px;
+    background:#fff;
+    z-index: 100;
+    position: fixed;
+    top:50%;
+    right:75px;
+    border-radius:3px;
+    box-shadow: 1px 1px 1px 1px gray;
+} */
+.ant-breadcrumb{
+    font-family: regularfont;
+    font-size: 13px;
+    color:#333333;
+    padding-top: 7px;
+}
+.ant-breadcrumb > span:last-child{
+    font-family: semiboldfont;
+    color:#333333;
+}
+.ant-breadcrumb img{
+    vertical-align: baseline !important;
+}
+.ant-breadcrumb a{
+    color:#333333;
+}
+#delete-button{
+    width: 90px;
+    height: 35px;
+    border-radius: 3px;
+    background: #dd4b39;
+    font-family: regularfont;
+    outline: none;
+    color: #ffffff;
+    font-size: 14px;
+    border: solid 1px #d2d6de;
+    margin: 5px 5px 5px 5px;
+    cursor: pointer;
+}
+#skip-button{
+    width: 90px;
+    height: 35px;
+    border-radius: 3px;
+    background: #3c8dbc;
+    font-family: regularfont;
+    outline: none;
+    color: #ffffff;
+    font-size: 14px;
+    border: none;
+    margin: 5px 5px 5px 5px;
+    cursor: pointer;
+}
+#add-auction-button{
+    width: 90px;
+    height: 35px;
+    border-radius: 3px;
+    background: #3c8dbc;
+    font-family: regularfont;
+    outline: none;
+    color: #ffffff;
+    font-size: 14px;
+    border: none;
+    margin: 5px 5px 5px 5px;
+    cursor: pointer;
+}
+#back-button{
+    width: 90px;
+    height: 35px;
+    border-radius: 3px;
+    background: #ffffff;
+    font-family: regularfont;
+    outline: none;
+    color: #333333;
+    font-size: 14px;
+    margin: 5px 5px 5px 5px;
+    border: solid 1px #d2d6de;
+    cursor: pointer;
+}
+.ui-datatable-scrollable-body::-webkit-scrollbar-thumb {
+    /* background-color: #000000; */
+}
+.ui-radiobutton-box.ui-state-active{
+    border: 1px solid #3c8dbc;
+    background: white;
+    color: #3c8dbc;
+}
+.ui-radiobutton .ui-radiobutton-icon{
+    font-size: 8px
+}

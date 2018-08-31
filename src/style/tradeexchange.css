@@ -1,0 +1,39 @@
+#buttonExportCsv{
+    width: 90px;
+    height: 35px;
+    font-family: regularfont;
+    font-size: 14px;
+    border-radius: 3px;
+    background-color: #f4f4f4;
+    margin-right: 10px;
+    margin-top: 10px;
+    color:#333333;
+    border: solid 1px #d2d6de;
+    outline: none
+    }
+#accept-button{
+    width: 90px;
+    height: 35px;
+    font-family: regularfont;
+    font-size: 14px;
+    border-radius: 3px;
+    background-color: #3c8dbc;
+    margin-right: 10px;
+    margin-top: 10px;
+    color:#ffffff;
+    border: solid 1px #d2d6de;
+    outline: none
+    }
+#buy-button{
+    width: 90px;
+    height: 35px;
+    font-family: regularfont;
+    font-size: 14px;
+    border-radius: 3px;
+    background-color: #dd4b39;
+    margin-right: 10px;
+    margin-top: 10px;
+    color:#ffffff;
+    border: solid 1px #d2d6de;
+    outline: none
+    }

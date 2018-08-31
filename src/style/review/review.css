@@ -1,0 +1,43 @@
+.review-table-operations{
+    display: flex;
+    justify-content: flex-end
+}
+.review-table-operations #btnAdd{
+height: 35px;
+border-radius: 3px;
+background-color: #3c8dbc;
+margin-right: 10px;
+margin-top: 10px;
+margin-left: 7px;
+border:0;
+font-family: regularfont;
+color: white;
+}
+.ui-rating a {
+    color: #dd4b39;
+}
+.inner_div{
+    border-radius: 4px;
+    background-color: #ffffff;
+    border: solid 1px rgba(210, 214, 222, 0.5);
+    border-Top:3px solid #3c8dbc;
+}
+#CreateUserDiv{
+    width: 98%;
+    margin: 30px auto;
+}
+#CreateUserDiv p{
+    font-family: boldfont;
+    font-size:14px;
+    color: #333333
+}
+.ant-menu-horizontal > .ant-menu-item{
+    border-top: 3px solid transparent;
+    top: 0px
+}
+.ant-menu-horizontal > .ant-menu-item-selected{
+    border-top: 3px solid #3c8dbc;
+    border-left: 1px solid rgba(210, 214, 222, 0.5);
+    border-right: 1px solid rgba(210, 214, 222, 0.5);
+    box-shadow: inset -1px 0px 0 0 rgba(210, 214, 222, 0.5), inset 1px 0 0 0 rgba(210, 214, 222, 0.5), inset 0px 1px 0 0 rgba(210, 214, 222, 0.5);
+}

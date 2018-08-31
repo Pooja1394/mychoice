@@ -1,0 +1,11 @@
+#SNoBox,#ImageBox{
+    width: 60px;
+}
+#ProductNameBox,#ProductIdBox{
+    width: 150px;
+}
+#TradeBalanceBox,#TraderNameBox,#BuyerSellerNameBox,#SoldPurchasingDateBox,#TradeInOutDateBox{
+    width: 200px;
+}
+
+

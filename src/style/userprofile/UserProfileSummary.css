@@ -1,0 +1,249 @@
+
+#AddressDiv{
+    width: calc(100vw -280px);
+  height: 62px;
+  mix-blend-mode: undefined;
+  background-color: #ffffff;
+  box-shadow: inset 0px -1px 0 0 rgba(210, 214, 222, 0.5);
+}
+#IPAddressDiv{
+     width: calc(100vw -280px);
+    height: 40px;
+    mix-blend-mode: undefined;
+    background-color: #f5f5f5;
+    box-shadow: inset 0px -1px 0 0 rgba(210, 214, 222, 0.5);
+}
+#RegistrationDateDiv{
+    width: calc(100vw -280px);
+    height: 40px;
+    mix-blend-mode: undefined;
+    background-color: #ffffff;
+    box-shadow: inset 0px -1px 0 0 rgba(210, 214, 222, 0.5);
+}
+#LastLoginDiv{
+     width: calc(100vw -280px);
+    height: 40px;
+    mix-blend-mode: undefined;
+    background-color: #f5f5f5;
+    box-shadow: inset 0px -1px 0 0 rgba(210, 214, 222, 0.5);
+}
+#LevelDiv{
+     width: calc(100vw -280px);
+    height: 40px;
+    mix-blend-mode: undefined;
+    background-color: #ffffff;
+    box-shadow: inset 0px -1px 0 0 rgba(210, 214, 222, 0.5);
+}
+#BalanceDiv{
+     width: calc(100vw -280px);
+    height: 40px;
+    mix-blend-mode: undefined;
+    background-color: #f5f5f5;
+    box-shadow: inset 0px -1px 0 0 rgba(210, 214, 222, 0.5);    
+}
+#SuspendDiv{
+     width: calc(100vw -280px);
+    height: 40px;
+    mix-blend-mode: undefined;
+    background-color: #ffffff;
+    box-shadow: inset 0px -1px 0 0 rgba(210, 214, 222, 0.5);
+}
+#StatusDiv{
+     width: calc(100vw -280px);
+    height: 40px;
+    mix-blend-mode: undefined;
+    background-color: #f5f5f5;
+    box-shadow: inset 0px -1px 0 0 rgba(210, 214, 222, 0.5);
+}
+.UserProfileSummaryTit{
+  height: 11px;
+  mix-blend-mode: undefined;
+  font-family: boldfont;
+  font-size: 14px;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.75;
+  letter-spacing: normal;
+  text-align: left;
+  color: #333333;
+  margin-left: 195px;
+  margin-top: 7px;
+  width: 15%;
+}
+#UserBioDiv{
+ width: calc(100vw - 280px);
+ height: 86px;
+ mix-blend-mode: undefined;
+ background-color: #f5f5f5;
+ box-shadow: inset 0px -1px 0 0 rgba(210, 214, 222, 0.5);
+ display: flex;
+
+}
+/* enable styles----------------------------------- */
+
+/* #SummaryDiv .enable_disable_button
+{
+    height:auto;
+    width:auto;
+    position:relative;
+} */
+/* #SummaryDiv .enable_disable_button span
+{
+    position: absolute;
+    height:28px;
+    width: 50%;
+    transition:0.3s;
+    left: 0px;
+    top: 6px;
+    bottom: 0px;
+    z-index: 100;
+    border-radius:3px;
+    line-height:30px;
+    color:white;
+} */
+
+.UserProfileSummaryDesc{  
+ padding-top: 10px;
+ width: 50%;
+ width: 50%;
+ text-align: left;
+ word-wrap: break-word;
+  
+}
+/* suspand style-------------------------- */
+/* .suspend_outer_container
+{
+    height:auto;
+    width:32%;
+    position:relative;
+}
+.suspend_outer_container span
+{
+    position: absolute;
+    height:28px;
+    width: 50%;
+    transition:0.3s;
+    left: 0px;
+    top: 6px;
+    bottom: 0px;
+    z-index: 100;
+    border-radius:3px;
+    color: #fff;
+    margin: auto;
+    text-align: center;
+    line-height: 30px;
+    visibility: hidden;
+}
+#SummaryDiv #SuspendYes{
+    width: 50%;
+   height: 28px;
+   mix-blend-mode: undefined;
+   border-radius: 3px;
+   background-color: #97a0b3;
+   border-top-right-radius: 0px;
+   border-bottom-right-radius: 0px;
+   border:none;
+   outline:none;
+   color:white;
+   border-right: 0px;
+   margin-top: 6px;
+ }
+ 
+ #SummaryDiv #SuspendNo{
+     width: 50%;
+   height: 28px;
+   mix-blend-mode: undefined;
+   border-radius: 3px;
+   border-top-left-radius: 0px;
+   border-bottom-left-radius: 0px;
+   background-color: #dd4b39;
+   border: solid 1px #dd4b39;
+   border-left: 0px;
+   color:white;
+   border:none;
+   outline:none
+ } */
+
+ /* status style------------------------- */
+
+ /* .status_outer_container
+ {
+     height:auto;
+     width:32%;
+     position:relative;
+ }
+ .status_outer_container span
+ {
+    position: absolute;
+    height:28px;
+    width: 50%;
+    transition:0.3s;
+    left: 0px;
+    top: 6px;
+    bottom: 0px;
+    z-index: 100;
+    border-radius:3px;
+    color: #fff;
+    background: green;
+    margin: auto;
+    text-align: center;
+    line-height: 30px;
+ }
+ #SummaryDiv #StatusOpen{
+     width: 50%;
+   height: 28px;
+   mix-blend-mode: undefined;
+   background-color: #3c8dbc;
+   border-right: 0px;
+   border-radius: 3px;
+   border-top-right-radius: 0px;
+   border-bottom-right-radius: 0px;
+   margin-top: 6px;
+   color:white;
+   border:none;
+   outline:none
+ }
+ #SummaryDiv #StatusLock{
+ width: 50%;
+   height: 28px;
+   mix-blend-mode: undefined;
+   background-color: #97a0b3;
+   border-left: 0px;
+   border-radius: 3px;
+   border-top-left-radius: 0px;
+   border-bottom-left-radius: 0px;
+   margin-top: 6px;
+   color:white;
+   border:none;
+   outline:none
+ } */
+
+ #UserBiobtnSpan{
+     float: right;
+     margin-top: 13px;
+     width: 17%;
+ }
+
+ ul{
+    list-style-type: none;
+    margin: 0;
+    
+    }
+
+/* li{
+    width: 50%;
+    text-align: left
+} */
+
+#SummaryDiv{
+    width: 80%;
+}
+.Userprofilesumul{
+    display: flex
+}
+.UserProfileSummaryDesc1{  
+
+    width: 50%;
+    text-align: left
+     
+   }
